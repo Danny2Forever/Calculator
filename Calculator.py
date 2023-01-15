@@ -43,7 +43,7 @@ if __name__ == '__main__':
     button = Button(root, text="C", height=2, width=4, command=lambda: set_blank())
     button.grid(row=1, column=1)
 
-    button = Button(root, text="%", height=2, width=4, command=lambda: input(8))
+    button = Button(root, text="%", height=2, width=4, command=lambda: input(%))
     button.grid(row=1, column=2)
 
     button = Button(root, text="<del", height=2, width=4, command=lambda: delete())
